@@ -1,0 +1,136 @@
+#outerbox {
+    width: 1024px;
+    overflow: hidden;
+}
+
+#sliderbox {
+    position: relative;
+    width: 8192px;
+    animation-name: slider;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+#sliderbox img {
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    12.5% {
+        left: 1024px;
+    }
+    22.5% {
+        left: 1024px;
+    }
+    25% {
+        left: 2048px;
+    }
+    35% {
+        left: 2048px;
+    }
+    37.5% {
+        left: 3072px;
+    }
+    47.5% {
+        left: 3072px;
+    }
+    50% {
+        left: 4096px;
+    }
+    60% {
+        left: 4096px;
+    }
+    62.5% {
+        left: 5120px;
+    }
+    72.5% {
+        left: 5120px;
+    }
+    75% {
+        left: 6144px;
+    }
+    85% {
+        left: 6144px;
+    }
+    87.5% {
+        left: 7168px;
+    }
+    97.5% {
+        left: 7168px;
+    }
+    100% {
+        left: 8192px;
+    }
+}
+body {
+    font-family: italic; 
+    margin: 0px 30px 0px 30px;
+    padding: 0;
+    background-color: whitesmoke;
+    font-style: italic;
+    background-image: url("https://p16-flow-sign-sg.ciciai.com/ocean-cloud-tos-sg/text2img/61aa4aa7624b3af77e7ad0a3d9558af7_1728542126453719820.png~tplv-0es2k971ck-image-qvalue.png?rk3s=6823e3d0&x-expires=1760078126&x-signature=X%2FUnnIwKciJ6bGVQOC95lCCK0IQ%3D"); /* Add background image */
+    background-size: 2000 px; 
+    background-repeat: no-repeat; 
+
+}
+.header {
+    background-color: #070707;
+    color:white; 
+    padding: 10px ;
+    text-align: center;
+}
+.header h1 {
+    color: whitesmoke;
+}
+.header h1 span {
+    color: #FFD700; 
+}
+.header h1 span:nth-child(2) {
+    color: #FFF;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FFD700;
+}
+.nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav a:hover {
+    background-color: #555;
+}
+.nav a:nth-child(1),
+.nav a:nth-child(2),
+.nav a:nth-child(3),
+.nav a:nth-child(4),
+.nav a:nth-child(5) { 
+    color: #0c0c0b; 
+}
+.main {
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.content{
+  width: 100%;
+  height: 300px;
+}
